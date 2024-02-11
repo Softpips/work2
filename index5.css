@@ -1,0 +1,81 @@
+.container
+{ 
+    box-sizing: border-box;
+}
+{
+    font-family:"Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"SOFT" 0, "WORK" 0;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    height: 620px;
+    max-width: 100%;
+    background-color: hsl(26.25, 40%, 92.16);
+    justify-content: center;
+    align-items: center;
+}
+.perf
+{
+    height: 460px;
+    border-bottom-left-radius: 1rem;
+}
+.text
+{
+    background-color: white;
+    height: 400px;
+    width: 20%;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-left: 20px;
+}
+.first
+{
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+p
+{
+    margin: 20px;
+    padding-left: 20px;
+}
+h1 span
+{
+    color: hsl(158, 36%, 37%);
+    display: inline;
+}
+.number
+{
+    margin-top: 20px;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: bolder;
+}
+p span
+{
+    color: black;
+    font-size: 12px;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+button
+{
+    width: 80;
+    height: 40px;
+    margin-top: 40px;
+    background-color: rgb(17, 83, 17);
+    color: white;
+    border-radius: 0.5rem;
+}
